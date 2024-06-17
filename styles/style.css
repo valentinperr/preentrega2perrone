@@ -12,5 +12,60 @@
     height: 1000px;
     background-attachment: fixed;
     background-size: cover;
+}
 
+  /************************************************************/
+  /************************Nosotros****************************/
+  /************************************************************/
+
+  .texto {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  /************************************************************/
+  /************************footer****************************/
+  /************************************************************/
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #f1a058;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+
+}
+
+.menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
