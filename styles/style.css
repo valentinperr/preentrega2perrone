@@ -23,6 +23,43 @@
   }
 
   /************************************************************/
+  /************************contacto****************************/
+  /************************************************************/
+  .box-info {
+    color: #f1a058;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .box-info > h1 {
+    text-align: left;
+    letter-spacing: 5px;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .data > p {
+    font-size: 1rem;
+  }
+
+  .data > p > i {
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  .links {
+    display: flex;
+    gap: 15px;
+  }
+
+
+  /************************************************************/
   /************************footer****************************/
   /************************************************************/
 
