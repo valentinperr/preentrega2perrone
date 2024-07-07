@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
   <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> Rygar S.A </a>
@@ -33,10 +32,27 @@
       </div>
     </div>
 </nav>
+
+<header>
+
 <section class="hero d-flex justify-content-center align-items-center flex-column mb-3">
      <h2 class=".text-dark">Rygar aberturas de aluminio</h2>
      <h3 class=".text-dark">Calidad para tu vida</h3>
 </section>
+
+</header>
+
+<main>
+
+  <div class="content">
+    <div class="text-box">
+      <h2>¿QUE OFRECEMOS?</h2>
+      <p>Sistemas de Carpintería de Aluminio de alta tecnología, que se adaptan a todo tipo de proyectos para brindar soluciones arquitectónicas.
+        Para ello, utilizamos perfilería provista por Hydro y Aluar, empresas líderes en el mercado, que cumplen con normas de fabricación nacionales e internacionales exigentes. Esto nos permite estar a la altura de las expectativas de nuestros clientes. 
+        Contamos con una amplia gama de productos de aluminio:</p>
+    </div>
+  </div>
+
 
 <section class="container">
   <div class="row mt-4">
@@ -46,7 +62,7 @@
         <div class="card-body">
           <h5 class="card-title">Linea herrero</h5>
           <p class="card-text">Es un Sistema de Carpintería liviano y diseñado para satisfacer las necesidades básicas del segmento en viviendas unifamiliares. Está línea permite una baja considerable en los costos finales a un valor extremadamente accesible. </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">ver mas...</a>
         </div>
       </div>
 
@@ -59,7 +75,7 @@
         <div class="card-body">
           <h5 class="card-title">Linea combinada</h5>
           <p class="card-text">La  linea combinada es un sistema hibrido entre la linea herrero y modena, muy practico y intermedio entre los distintos tipos de ventanas.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">ver mas...</a>
         </div>
       </div>
 
@@ -71,7 +87,7 @@
         <div class="card-body">
           <h5 class="card-title">Linea Modena</h5>
           <p class="card-text">Es el Sistema más tradicional que ha creado un estándar debido a su diseño y al equilibrio peso/resistencia. Su uso extendido lo transforma en el sistema más consolidado del mercado.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">ver mas...</a>
         </div>
       </div>
 
@@ -81,45 +97,74 @@
       <a/div>
   </div>
 </section>
+</main>
 
-  <div class="container">
-    <div class="box-info">
-      <h1>CONTACTANOS</h1>
-       <div class="data">
-        <p><i class="fa-solid fa-phone"></i>+9 115014122x</p>
-        <p><i class="fa-solid fa-envelope"></i>rygarsa@gmail.com</p>
-        <p><i class="fa-solid fa-location-dot"></i>Av.Francisco Piovano 5649-Moreno</p>
-        </div>
-        <div class="links">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-    </div>
-    <form>
-      <div class="input-box">
-        <input type="text" required
-        placeholder="nombre">
-      </div>
-      <div class="input-box">
-        <input type="email" required
-        placeholder="e-mail">
-      </div>
-      <div class="input-box">
-        <input type="text" required
-        placeholder="asunto">
-        <div class="input-box">
-          <textarea cols="30" rows="10"
-          placeholder="escribi tu mensaje"></textarea>
-        </div>
-        <button type="submit">enviar mensaje</button>
-    </form>
+<section class="d-flex justify-content-center">
+  <div class="card col-sm-6 p-3">
+  <div class="mb-3">
+      <h4>Contacto</h4>
   </div>
+  <div class="mb-2">
+      <form action="">
+          <div class="mb-2">
+              <label for="nombre">nombre</label>
+              <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej:valentin">
+          </div>
+          <div class="mb-2">
+             <label for="apellido">apellido</label>
+             <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej:Perrone">
+         </div>
+         <div class="mb-2">
+             <label for="correo">correo</label>
+             <input type="text" class="form-control" name="correo" id="correo" placeholder="ej:perron@gmail.com">
+         </div>
+         <div class="mb-2">
+             <label for="sexo">sexo</label>
+             <input type="radio"name="sexo" id="masculino" value="masculino">masculino
+             <input type="radio"name="sexo" id="femenino" value="femenino">femenino
+             <div class="mb-2">
+             <label for="mensaje">mensaje</label>
+              <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
+             </div>
+             <div class="mb-2">
+                <button class="btn btn-primary">enviar</button>
+             </div>
+       </form>
+  </div>
+ </div>
+</section>
 
 
 
+<footer class="footer">
+  <ul class="social-icon">
+        <li class="icon elem"></li>
+      <a href="" class="icon">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
 
- <footer class="footer">
+  </ul>
   <ul class="menu">
       <li class="menu-elem">
           <a href="" class="menu-icon"> Inicio</a>
@@ -136,5 +181,8 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script  type =  " module" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+
 </body>
 </html>

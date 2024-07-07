@@ -5,6 +5,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+
 .hero {
     background-image: url(../img/hotelibiza_1z.jpg);
     background-repeat: no-repeat;
@@ -14,6 +15,28 @@
     background-size: cover;
 }
 
+
+ .content {
+  margin: 150px auto;
+  width: 70%;
+ }
+
+.text-box h2 {
+
+  font-size: 42px;
+} 
+.text-box p {
+  font-size: 16px;
+}
+
+.imagen {
+  float: left;
+  border: 3px solid;
+  border-radius: 10px;
+  margin-right: 15px;
+
+}
+
   /************************************************************/
   /************************Nosotros****************************/
   /************************************************************/
@@ -21,43 +44,6 @@
   .texto {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
-
-  /************************************************************/
-  /************************contacto****************************/
-  /************************************************************/
-  .box-info {
-    color: #f1a058;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .box-info > h1 {
-    text-align: left;
-    letter-spacing: 5px;
-  }
-
-  .data {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .data > p {
-    font-size: 1rem;
-  }
-
-  .data > p > i {
-    color: aliceblue;
-    margin-right: 10px;
-    font-size: 25px;
-  }
-
-  .links {
-    display: flex;
-    gap: 15px;
-  }
-
 
   /************************************************************/
   /************************footer****************************/
@@ -73,6 +59,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+  
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translatey(-10px);
 }
 
 .menu {
@@ -96,7 +108,7 @@
     text-decoration: none;
     margin: 5px 10px;
     opacity: 0.5;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .text {
